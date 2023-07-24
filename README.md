@@ -12,11 +12,11 @@ zha:
 
 Then put this file ts0601_sensor.py on that folder /config/custom_zha_quirks/ 
 If the device was already integrated on HA, you need to 
- 1. Remove it from ZHA integration, 
- 2. Delete the folder /config/custom_zha_quirks/__pycache__, 
- 3. Restart Home Assistant (HA)
- 4. Add device again on ZHA Integration
- 5. Check on device info if it loaded Quirk: ts0601_sensor.eMyloYSAF033TempHumiditySensor_by_jojo01
- 6. Wait a few minutes, device will take actual time and give temp and humidity. Battery sensor still not working yet.
+  1. Remove it from ZHA integration, 
+  2. Delete the folder /config/custom_zha_quirks/__pycache__, 
+  3. Restart Home Assistant (HA)
+  4. Add device again on ZHA Integration
+  5. Check on device info if it loaded Quirk: ts0601_sensor.eMyloYSAF033TempHumiditySensor_by_jojo01
+  6. Wait a few minutes, device will take actual time and give temp and humidity. Battery sensor still not working yet.
 
 Enjoy ! :)
